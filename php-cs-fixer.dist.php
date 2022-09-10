@@ -13,7 +13,6 @@ return (new PhpCsFixer\Config())
         'method_argument_space' => ['on_multiline' => 'ignore'],
         'lambda_not_used_import' => false,
         'blank_line_before_statement' => ['statements' => [
-            'break',
             'continue',
             'declare',
             'exit',
